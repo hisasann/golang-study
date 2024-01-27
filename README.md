@@ -15,7 +15,7 @@ Go Modules を有効にする。
 
 Settings -> Go -> Go Modules -> Enable Go Modules integration にチェックを入れる。
 
-これで、 `logger.WithTrace` のような定義位置に飛べなかった部分が飛べるようになる。
+これで、 `logger.trace` のような他の pkg のメソッド定義位置に飛べなかった部分が飛べるようになる。
 
 ### VSCode
 
