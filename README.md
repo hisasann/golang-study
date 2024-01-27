@@ -55,3 +55,27 @@ gofumpt は settings.json に以下を追加してみた。
     "formatting.gofumpt": true
 }
 ```
+
+## Tools
+
+**gofmt**
+
+`go fmt` でもいいが、これは内部的に `gofmt` を呼び出している。
+
+```bash
+gofmt -l -s -w .
+```
+
+[gofmt command - cmd/gofmt - Go Packages](https://pkg.go.dev/cmd/gofmt)
+
+**goimports**
+
+```bash
+go install golang.org/x/tools/cmd/goimports@latest
+```
+
+**golint**
+
+```bash
+go install golang.org/x/lint/golint@latest
+```
