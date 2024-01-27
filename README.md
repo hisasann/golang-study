@@ -11,6 +11,12 @@
 - Copilot
 - Material Theme UI
 
+Go Modules を有効にする。
+
+Settings -> Go -> Go Modules -> Enable Go Modules integration にチェックを入れる。
+
+これで、 `logger.WithTrace` のような定義位置に飛べなかった部分が飛べるようになる。
+
 ### VSCode
 
 [Goland から VSCode への移行](https://zenn.dev/tellernovel_inc/articles/8a1ac1f1652605)
